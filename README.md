@@ -32,3 +32,14 @@ $ pip install fabric==dev
 `c.Ensure fabfile is modified with host accessible to your environment`
 
 Run following command 
+```sh
+Available commands:
+
+    check_tcp_udp_connection_status  Sometimes server will be overwhelmed by number of open connections leading to denial of serv...
+    cpu_drainer                      Used to verify process which takes more cpu
+    errors_syslog                    Print any error or traces in syslog for eventual server misbehaviour
+    find_largest_open_file           Used to verify largest open file which occupy disc space
+    insufficient_drainer             Verify packets dropped due to memory constrain, if this increases will eventually lead to me...
+    memory_drainer                   Used to verify process which takes more memory Top 5
+    verify_kernel_dump               Used to verify dmesg output
+```
